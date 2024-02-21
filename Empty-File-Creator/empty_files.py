@@ -8,7 +8,6 @@ def create_file(directory_path, file_count, file_extension):
         with open(file_path, 'w'):
             pass
 
-
 directory_path = input('Enter directory path: ')
 file_count = int(input('Enter file count: '))
 file_extension = input('Enter file extension: ')
